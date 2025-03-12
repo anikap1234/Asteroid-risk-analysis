@@ -6,10 +6,10 @@ This project analyzes NASA's asteroid data to classify asteroids as **potentiall
 # Dataset
 The dataset is sourced from NASA's **Near-Earth Object (NEO) Database**:
 - **Features Used**:
-  - `h_mag` (Absolute magnitude - brightness)
-  - `moid_au` (Minimum orbit intersection distance with Earth in AU)
-  - `i_deg` (Orbital inclination in degrees)
-  - `pha` (Potentially Hazardous Asteroid - Target variable: Yes/No)
+  - h_mag (Absolute magnitude - brightness)
+  - moid_au (Minimum orbit intersection distance with Earth in AU)
+  - i_deg (Orbital inclination in degrees)
+  - pha (Potentially Hazardous Asteroid - Target variable: Yes/No)
 
 # Workflow
 1. **Data Preprocessing**
@@ -32,17 +32,11 @@ The dataset is sourced from NASA's **Near-Earth Object (NEO) Database**:
    - Sample predictions with real data
 
 
-## Results & Insights
+# Results & Insights
 - Most hazardous asteroids have **low MOID (closer to Earth)** and **higher brightness (lower h_mag)**
 
-## Future Enhancements
+# Future Enhancements
 - Implement **3D asteroid motion visualization**
 - Explore **deep learning models** for improved predictions
 - Integrate **real-time asteroid tracking** using NASA APIs
 
-## Credits
-- **NASA JPL NEO Dataset**
-- **Scikit-learn & Seaborn** for machine learning & visualization
-
----
-🔭 **Explore Space, Stay Curious!** 🚀
